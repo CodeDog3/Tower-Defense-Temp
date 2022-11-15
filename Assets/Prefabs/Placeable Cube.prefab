@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7476194107647029001}
   - component: {fileID: 4020701534914276177}
   - component: {fileID: 3600803842211107349}
+  - component: {fileID: 550855200}
   m_Layer: 0
   m_Name: Placeable Cube
   m_TagString: Placeable
@@ -97,3 +98,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &550855200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505426509379330844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 707648f4b2f993e4daace32a260b369b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upAmount: 0.7
+  speed: 1
